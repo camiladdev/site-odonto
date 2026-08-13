@@ -9,21 +9,21 @@ interface Reason {
 const reasons: Reason[] = [
   {
     icon: Cpu,
-    title: 'Tecnologia de Ponta',
+    title: 'Diagnóstico Avançado',
     description:
-      'Scanner intraoral, tomografia 3D e planejamento digital em todas as etapas do tratamento.',
+      'A melhor tecnologia a favor da sua saúde, garantindo tratamentos mais rápidos, precisos e totalmente sem surpresas.',
   },
   {
     icon: HeartHandshake,
-    title: 'Atendimento Humanizado',
+    title: 'Atmosfera Acolhedora',
     description:
-      'Cada plano de tratamento é único, pensado para a sua rotina, expectativas e conforto.',
+      'Deixamos de lado o clima frio de hospital. Nosso espaço foi criado com um design focado em fazer você relaxar e se sentir em casa.',
   },
   {
     icon: Gem,
-    title: 'Ambiente Premium',
+    title: 'Odontologia sem Medo',
     description:
-      'Um espaço pensado nos mínimos detalhes para que sua visita seja tranquila do início ao fim.',
+      'Uma equipe dedicada a ouvir você de verdade, tornando sua jornada odontológica leve, livre de ansiedade e cheia de confiança.',
   },
 ];
 
@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
             Por que nos escolher
           </span>
           <h2 className="mt-3 font-serif text-3xl font-semibold text-white sm:text-4xl">
-            Excelência clínica com alma de estúdio de design
+            Cuidar do seu sorriso nunca foi tão confortável e seguro
           </h2>
         </div>
 
