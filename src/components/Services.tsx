@@ -1,4 +1,4 @@
-import { Sparkles, Anchor, Zap, Smile, ArrowRight, LucideIcon } from 'lucide-react';
+import { Sparkles, SmilePlus, Zap, Smile, ArrowRight, LucideIcon } from 'lucide-react';
 
 interface Service {
   icon: LucideIcon;
@@ -11,25 +11,25 @@ const services: Service[] = [
     icon: Sparkles,
     title: 'Lentes de Contato em Porcelana',
     description:
-      'Camadas ultrafinas que corrigem forma, cor e alinhamento sem desgastar o dente natural.',
+      'Transforme seu sorriso com facetas ultrafinas e de alta resistência com este procedimento minimamente invasivo.',
   },
   {
-    icon: Anchor,
-    title: 'Implantes Dentários',
+    icon: SmilePlus,
+    title: 'Plástica Gengival (Gengivoplastia)',
     description:
-      'Reabilitação completa com planejamento digital 3D e previsibilidade cirúrgica.',
+      'O equilíbrio perfeito entre os dentes e a gengiva através de técnicas de microcirurgia de alta precisão.',
   },
   {
     icon: Zap,
     title: 'Clareamento a Laser',
     description:
-      'Resultados visíveis em uma única sessão, com sensibilidade minimizada.',
+      'Recupere a luminosidade e a juventudo do seu sorriso com tecnologia de ponta.',
   },
   {
     icon: Smile,
-    title: 'Ortodontia Invisível',
+    title: 'Alinhadores Ortodônticos Invisíveis',
     description:
-      'Alinhadores transparentes e removíveis para uma correção discreta e confortável.',
+      'Alinhadores transparentes e removíveis, a mais alta tecnologia para o alinhamento dentário.',
   },
 ];
 
@@ -42,7 +42,7 @@ export default function Services() {
             Nossos Serviços
           </span>
           <h2 className="mt-3 font-serif text-3xl font-semibold text-navy-950 sm:text-4xl">
-            Cuidado completo, do diagnóstico ao sorriso perfeito
+            Especialistas em transformar a estética e a saúde do seu sorriso.
           </h2>
         </div>
 
