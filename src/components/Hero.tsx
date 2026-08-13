@@ -1,7 +1,8 @@
 import { MessageCircle, Star, Image as ImageIcon, ShieldCheck } from 'lucide-react';
+import pacienteImg from '../assets/paciente-sorrindo.jpg';
 
 const WHATSAPP_LINK =
-  'https://wa.me/5511912345678?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.';
+  'https://wa.me/55999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.';
 
 export default function Hero() {
   return (
@@ -19,14 +20,12 @@ export default function Hero() {
           </span>
 
           <h1 className="mt-6 font-serif text-4xl font-semibold leading-[1.1] text-navy-950 sm:text-5xl lg:text-[3.4rem]">
-            Cada sorriso conta uma história.{' '}
-            <span className="italic text-mint-600">Vamos escrever a sua.</span>
+            A arte de esculpir {' '}
+            <span className="italic text-mint-600">sorrisos inesquecíveis.</span>
           </h1>
 
           <p className="mt-6 max-w-lg text-base leading-relaxed text-navy-500 sm:text-lg">
-            Unimos tecnologia de ponta, design odontológico e um cuidado
-            verdadeiramente humano para transformar não só o seu sorriso, mas
-            a forma como você se sente diante do espelho.
+            Especialistas em reabilitação oral e estética dental. Recupere sua autoconfiança e o prazer de sorrir com tratamentos indolores, rápidos e tecnologia 100% digital.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -37,7 +36,7 @@ export default function Hero() {
               className="inline-flex items-center justify-center gap-2.5 rounded-full bg-mint-500 px-7 py-4 text-base font-semibold text-navy-950 shadow-lg shadow-mint-500/30 transition hover:-translate-y-0.5 hover:bg-mint-600 hover:shadow-xl"
             >
               <MessageCircle className="h-5 w-5" strokeWidth={2.5} />
-              Falar com a clínica agora
+              Agendar minha avaliação
             </a>
             <span className="text-sm text-navy-400">
               Resposta em minutos, via WhatsApp
@@ -81,7 +80,10 @@ export default function Hero() {
             <div className="absolute inset-3 flex flex-col items-center justify-center gap-3 rounded-[2rem] border-2 border-dashed border-white/20 text-white/70">
               <ImageIcon className="h-10 w-10" strokeWidth={1.5} />
               <p className="px-8 text-center text-sm">
-                [Foto de paciente sorrindo — substitua por imagem real]
+                <img
+                  src={pacienteImg}
+                  alt="Paciente sorrindo com o tratamento finalizao"
+                  className="absolute inset-3 h-[calc(100%-24px)] w-[calc(100%-24px)] object-cover rounded-[2rem] shadow-xl"/>
               </p>
             </div>
 

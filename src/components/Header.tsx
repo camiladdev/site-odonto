@@ -1,7 +1,7 @@
 import { MessageCircle } from 'lucide-react';
 
 const WHATSAPP_LINK =
-  'https://wa.me/5511912345678?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta.';
+  'https://wa.me/55999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta.';
 
 export default function Header() {
   return (
