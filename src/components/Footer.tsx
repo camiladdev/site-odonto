@@ -10,11 +10,10 @@ export default function Footer() {
               Lumina
             </span>
             <span className="ml-1 text-[11px] font-medium uppercase tracking-[0.2em] text-navy-400">
-              Dental Studio
+              Odontologia
             </span>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-navy-500">
-              Odontologia de alto padrão, unindo estética, saúde e tecnologia
-              em cada sorriso que passa por aqui.
+              Referência em odontologia estética avançada. Transformando sorrisos com precisão, conforto e tecnologia de ponta.
             </p>
           </div>
 
@@ -25,15 +24,15 @@ export default function Footer() {
             <ul className="mt-4 space-y-3 text-sm text-navy-500">
               <li className="flex items-start gap-2.5">
                 <Phone className="mt-0.5 h-4 w-4 shrink-0 text-mint-600" />
-                (11) 91234-5678
+                (99) 99999-9999
               </li>
               <li className="flex items-start gap-2.5">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-mint-600" />
-                contato@luminadental.com.br
+                contato@seuemail.com.br
               </li>
               <li className="flex items-start gap-2.5">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-mint-600" />
-                Av. Brigadeiro Faria Lima, 1500 — Itaim Bibi, São Paulo/SP
+                Av. Nome da Avenida, Nº - Rio de Janeiro/RJ
               </li>
             </ul>
           </div>
@@ -49,7 +48,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2.5">
                 <Clock className="mt-0.5 h-4 w-4 shrink-0 text-mint-600" />
-                Sábado: 09h às 13h
+                Sábado: 09h às 12h (Atendimento Exclusivo)
               </li>
             </ul>
           </div>
@@ -79,8 +78,8 @@ export default function Footer() {
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-navy-100 pt-8 text-xs text-navy-400 sm:flex-row">
           <p>
-            © {new Date().getFullYear()} Lumina Dental Studio. Todos os
-            direitos reservados.
+            © {new Date().getFullYear()} Lumina Odontologia Avançada. Todos os
+            direitos reservados. | Desenvolvido por <a href="https://ddevcamila.netlify.app" target='_blank'>Camila Diniz</a>
           </p>
           <p>CRO-SP 00000 · Responsável Técnico: Dr(a). Fictício da Silva</p>
         </div>
