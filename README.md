@@ -1,8 +1,8 @@
-# Lumina Dental Studio — Landing Page
+# Lumina Odontologia Estética — Landing Page
 
 Landing page de página única para clínica odontológica de alto padrão,
 construída em React + TypeScript + Tailwind CSS + lucide-react, focada em
-conversão via WhatsApp.
+conversão via WhatsApp. Landing Page teste para compor portfólio.
 
 ## Como rodar
 
@@ -11,8 +11,7 @@ npm install
 npm run dev
 ```
 
-Abra o endereço que o Vite mostrar no terminal (normalmente
-`http://localhost:5173`).
+Abra o endereço que o Vite mostrar no terminal.
 
 ## O que ajustar antes de publicar
 
